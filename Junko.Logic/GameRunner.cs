@@ -62,7 +62,7 @@ public class GameRunner
     {
         foreach (var p in Players)
         {
-            p.Hand.AddRange(Deck);
+            this.Deck = Deck;
             for (int i = 0; i < 7; i++)
             {
                 if (Startinghand.Count > i)
