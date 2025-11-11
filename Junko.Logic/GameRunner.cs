@@ -36,7 +36,7 @@ public class GameRunner
         {
             if (_instance == null)
             {
-                _instance = new GameRunner(7)
+                _instance = new GameRunner(7);
             }
             return _instance;
         }
