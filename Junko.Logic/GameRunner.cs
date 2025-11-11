@@ -65,7 +65,7 @@ public class GameRunner
             this.Deck = Deck;
             for (int i = 0; i < 7; i++)
             {
-                if (Startinghand.Count > i)
+                if (Startinghand.Count < 7)
                 {
                     var card = Deck.FirstOrDefault(c => c.Value == Startinghand[i]);
                     if (card != null)
